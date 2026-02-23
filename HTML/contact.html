@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Bataille de Semences — Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-flex">
+      <h1 class="logo">Contact</h1>
+      <nav class="nav">
+        <a href="index.html">Accueil</a>
+        <a href="concept.html">Concept</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="dons.html" class="cta-nav">Dons</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Écrivez-nous</h2>
+    <form class="form" id="contactForm">
+      <div class="form-row">
+        <label for="nom">Nom</label>
+        <input id="nom" name="nom" type="text" required>
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Envoyer</button>
+      <p class="form-feedback" id="contactFeedback" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-flex">
+      <p>&copy; 2025 Planète d’Urgence — Projet étudiant</p>
+      <div class="footer-actions">
+        <a href="contact.html">Nous contacter</a>
+        <a href="dons.html">Soutenir</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../JAVA/script.js"></script>
+</body>
+</html>
